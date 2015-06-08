@@ -19,14 +19,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="left|top"
-                android:id="@+id/">
+                android:id="@+id/row_something_test">
 
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/editText1"
                     android:layout_weight="1"
-                    android:text="This is edited text. I&apos;m changing it again." />
+                    android:text="This is edited text." />
             </TableRow>
         </FrameLayout>
     </FrameLayout>
