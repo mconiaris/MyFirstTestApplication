@@ -21,11 +21,12 @@
                 android:layout_gravity="left|top"
                 android:id="@+id/row_something_test">
 
-                <FrameLayout>
+                <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:id="@+id/row_layout_test">
                 </FrameLayout>
 
                 <EditText
