@@ -24,6 +24,15 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Michael"
+                    android:ems="10"
+                    android:id="@+id/editText"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:id="@+id/editText1"
                     android:layout_weight="1"
                     android:text="This is edited text." />
